@@ -1,0 +1,304 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("fondo.png");
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.boxw{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  height: 27px;
+  width: 36px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 11vh;
+  left: 16.2vw;
+}
+
+
+.boxw2{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  height: 27px;
+  width: 36px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 7.2vh;
+  left: 16.2vw;
+}
+.box3{
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 150px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 3.6vh;
+  left: 17.6vw;
+}
+.boxw3{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  height: 27px;
+  width: 36px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 3.5vh;
+  left: 16.2vw;
+}
+
+
+
+
+
+
+.container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ldBar-label {
+  display: none;
+}
+
+
+.supiz {
+  float: left;
+}
+
+.idplayer {
+  font-size: 1vw;
+  font-weight: 800;
+  color: #fff;
+  align-content: center;
+  padding-right: 1vw;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 20px;
+  position: absolute;
+  top: 275px;
+  right: -32px;
+}
+
+.supde,
+.logo {
+  float: left;
+}
+
+.fecha {
+  position: absolute;
+  top: 1vw;
+  right: 1.2vw;
+}
+.Laikas {
+  font-weight: 1000;
+  color: #fff;
+  padding-left: 0.21vw;
+  font-size: 1.5vw;
+  position: absolute;
+  bottom: -1000px;
+  left: -1545px;
+}
+.laikas {
+  font-weight: 500;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1vw;
+  font-style: italic;
+  position: absolute;
+  bottom: -1020px;
+  left: -1545px;
+}
+
+.infoplayer {
+  position: absolute;
+  top: 3.5vw;
+  right: 1.2vw;
+  text-align: right;
+}
+.darbas {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 4px;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  height: 10px;
+  width: 120px;
+  border-radius: 10%;
+  position: absolute;
+  bottom: 2.8vh;
+  left: 9vw;
+  
+}
+.rankas {
+  height: 5px;
+  width: 150px;
+  border-radius: 10%;
+  position: absolute;
+  bottom: 2.3vh;
+  left: 9.3vw;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 19px;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 0.42vw;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 2.1vh;
+  left: 8.8vw
+}
+
+.box6 {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 150px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 11.1vh;
+  left: 17.5vw;
+}
+.box5 {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 150px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 7.3vh;
+  left: 17.5vw;
+}
+.pinigai {
+  height: 30px;
+  width: 140px;
+  filter:brightness(-10); 
+  -webkit-filter:brightness(-10);    
+  border-radius: 5%;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  bottom: 5.5vh;
+  left: 9vw;
+}
+.bankas {
+  height: 30px;
+  width: 140px;
+  border-radius: 5%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  margin: auto;
+  bottom: 3.6vh;
+  left: 9vw;
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .infoplayer {
+    top: 5.5vw;
+  }
+}
+@media only screen and (max-width: 1600) {
+  .infoplayer {
+    top: 4.5vw;
+  }
+}
+.mic {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2vw;
+  transition: .5s;
+}
+
+.maistas {
+  position: absolute;
+  bottom: 2vh;
+  left: 16vw;
+}
+
+
+
+.food,
+.water {
+  float: left;
+  position: relative;
+}
+.food img,
+.water img {
+  position: absolute;
+  left: 1.56vw;
+  bottom: 1.5vh;
+  width: 1.42vw;
+}
+
+.ldBar path.mainline {
+    stroke-linecap: round;
+    transition: 0.5s;
+}
+
+.ldBar.come path.mainline {
+  stroke-width: 10;
+  stroke: #ffffff;
+  stroke-linecap: round;
+}
+.ldBar.come path.baseline {
+  stroke-width: 10;
+  stroke: #f1f2f373;
+  stroke-linecap: round;
+}
+.ldBar.toma path.mainline {
+  stroke-width: 10;
+  stroke: #ffffff;
+  stroke-linecap: round;
+}
+.ldBar.toma path.baseline {
+  stroke-width: 10;
+  stroke: #f1f2f373;
+  stroke-linecap: round;
+}
+
+.ldBar path.baseline {
+    stroke-width: 2.5;
+    stroke: #f1f2f373;
+    stroke-linecap: round;
+}
